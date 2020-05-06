@@ -18,8 +18,8 @@
 		2EFD4F3024610181003F314B /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD4F2F24610181003F314B /* SafariExtensionViewController.swift */; };
 		2EFD4F3324610182003F314B /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EFD4F3124610182003F314B /* SafariExtensionViewController.xib */; };
 		2EFD4F3624610182003F314B /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EFD4F3524610182003F314B /* script.js */; };
-		2EFD4F3824610182003F314B /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2EFD4F3724610182003F314B /* ToolbarItemIcon.pdf */; };
-		2EFD4F4424610935003F314B /* privateicon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2EFD4F4324610935003F314B /* privateicon.pdf */; };
+		2EFD4F472461FD00003F314B /* privateicon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2EFD4F452461FD00003F314B /* privateicon.pdf */; };
+		2EFD4F482461FD00003F314B /* nonprivateicon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2EFD4F462461FD00003F314B /* nonprivateicon.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,9 +61,9 @@
 		2EFD4F3224610182003F314B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		2EFD4F3424610182003F314B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EFD4F3524610182003F314B /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
-		2EFD4F3724610182003F314B /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		2EFD4F3924610182003F314B /* Private_Window_Status_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Private_Window_Status_Extension.entitlements; sourceTree = "<group>"; };
-		2EFD4F4324610935003F314B /* privateicon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = privateicon.pdf; sourceTree = "<group>"; };
+		2EFD4F452461FD00003F314B /* privateicon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = privateicon.pdf; sourceTree = "<group>"; };
+		2EFD4F462461FD00003F314B /* nonprivateicon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = nonprivateicon.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +133,8 @@
 				2EFD4F3124610182003F314B /* SafariExtensionViewController.xib */,
 				2EFD4F3424610182003F314B /* Info.plist */,
 				2EFD4F3524610182003F314B /* script.js */,
-				2EFD4F3724610182003F314B /* ToolbarItemIcon.pdf */,
-				2EFD4F4324610935003F314B /* privateicon.pdf */,
+				2EFD4F462461FD00003F314B /* nonprivateicon.pdf */,
+				2EFD4F452461FD00003F314B /* privateicon.pdf */,
 				2EFD4F3924610182003F314B /* Private_Window_Status_Extension.entitlements */,
 			);
 			path = "Private Window Status Extension";
@@ -231,10 +231,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EFD4F3824610182003F314B /* ToolbarItemIcon.pdf in Resources */,
+				2EFD4F472461FD00003F314B /* privateicon.pdf in Resources */,
+				2EFD4F482461FD00003F314B /* nonprivateicon.pdf in Resources */,
 				2EFD4F3324610182003F314B /* SafariExtensionViewController.xib in Resources */,
 				2EFD4F3624610182003F314B /* script.js in Resources */,
-				2EFD4F4424610935003F314B /* privateicon.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
